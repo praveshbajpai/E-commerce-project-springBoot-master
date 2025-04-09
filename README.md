@@ -29,27 +29,27 @@ src/ ├── main/ │ ├── java/ │ │ └── com.ecommerce/ # Main
    ```bash
    git clone https://github.com/praveshbajpai/E-commerce-project-springBoot-master.git
    cd E-commerce-project-springBoot-master
-Set up MySQL Database
+2. Set up MySQL Database
 
 Create a new database named ecommerce_db
 
 Update your application.properties with your MySQL username and password
 
-Build and Run the Application
+3. Build and Run the Application
 
 bash
 mvn spring-boot:run
-Access the App
+4. Access the App
 
 User Panel: http://localhost:8080/
 
 Admin Panel: http://localhost:8080/admin (Login credentials can be hardcoded or extended using Spring Security)
 
 🔐 Future Enhancements
-Integrate Spring Security for authentication & role-based access
+1.Integrate Spring Security for authentication & role-based access
 
-Add payment gateway integration (e.g., Razorpay or Stripe)
+2.Add payment gateway integration (e.g., Razorpay or Stripe)
 
-Add product search and filtering
+3.Add product search and filtering
 
-Email notifications for order confirmation
+4.Email notifications for order confirmation
